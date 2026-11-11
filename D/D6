@@ -1,0 +1,11 @@
+import os
+os.system("cls" if os.name == "nt" else "clear")
+
+
+def chuan_hoa_ten(ten):
+    return ten.strip().title()
+ten = input("nhập tên: ")
+ten_da_chuan_hoa = chuan_hoa_ten(ten)
+print("Tên sau khi chuẩn hóa:", ten_da_chuan_hoa)
+
+# OK

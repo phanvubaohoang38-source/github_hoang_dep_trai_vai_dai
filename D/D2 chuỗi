@@ -1,0 +1,14 @@
+# chuỗi
+import os
+os.system("cls" if os.name == "nt" else "clear")
+
+s = str(input("nhập chuỗi: "))
+
+dao_nguoc = ""
+
+for ch in s:
+    dao_nguoc = ch + dao_nguoc
+
+print(f"chuỗi đảo ngược là: {dao_nguoc}")
+
+# OK

@@ -1,0 +1,8 @@
+#slicing
+import os
+os.system("cls" if os.name == "nt" else "clear")
+
+
+s = str(input("Enter : "))
+dao_nguoc = s[::-1]
+print(f"chuỗi đảo ngược là: {dao_nguoc}")
