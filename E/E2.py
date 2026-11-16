@@ -13,3 +13,6 @@ else:
 
     print("Vị trí chẵn (chỉ số 0, 2, 4...):", nums[::2])
     print("Vị trí lẻ (chỉ số 1, 3, 5...):", nums[1::2])
+
+# OK 
+# English only

@@ -13,6 +13,7 @@ else:
         if x % 3 == 0:
             ket_qua1.append(x)
             print("Vòng lặp thường:", ket_qua1)
+            # repeated print
 
 
     ket_qua2 = [x for x in a if x % 3 == 0]

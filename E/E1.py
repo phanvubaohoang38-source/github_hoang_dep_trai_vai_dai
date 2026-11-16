@@ -11,3 +11,6 @@ else:
     print("Lớn nhất:", max(n))
     print("Nhỏ nhất:", min(n))
     print("Trung bình cộng:", round(sum(n) / len(n), 2))
+
+# OK 
+# English only
