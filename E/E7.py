@@ -14,4 +14,4 @@ for i in range(1, len(n)):     # <- outside else syntax
     if n[i] > n[vi_tri]:  
         vi_tri = i
         
-print(vi_tri + 1)
+        print(vi_tri + 1)
